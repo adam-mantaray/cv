@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmed Afify — CV</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Georgia', serif;
+    font-size: 13px;
+    color: #1a1a1a;
+    background: #fff;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 48px 56px;
+    line-height: 1.55;
+  }
+  h1 { font-size: 28px; font-weight: bold; letter-spacing: -0.5px; }
+  .subtitle { font-size: 14px; color: #555; margin-top: 4px; font-style: italic; }
+  .contact { font-size: 12px; color: #444; margin-top: 8px; }
+  .contact a { color: #444; text-decoration: none; }
+  hr { border: none; border-top: 1.5px solid #1a1a1a; margin: 20px 0 16px; }
+  h2 { font-size: 11px; text-transform: uppercase; letter-spacing: 2px; color: #555; margin-bottom: 12px; }
+  .section { margin-bottom: 28px; }
+  .role { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2px; }
+  .role-title { font-weight: bold; font-size: 14px; }
+  .role-date { font-size: 12px; color: #666; white-space: nowrap; }
+  .role-company { font-size: 13px; color: #333; margin-bottom: 6px; }
+  ul { padding-left: 18px; }
+  ul li { margin-bottom: 4px; }
+  .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px 24px; }
+  .skill-item { font-size: 12.5px; }
+  .tag { display: inline-block; background: #f0f0f0; border-radius: 3px; padding: 2px 8px; font-size: 11px; margin: 2px 2px 2px 0; }
+  .profile-text { font-size: 13.5px; line-height: 1.7; }
+  @media print {
+    body { padding: 32px 40px; }
+    .no-print { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Ahmed Afify</h1>
+<div class="subtitle">Engineering Leader · AI Systems · Healthcare &amp; SaaS Products</div>
+<div class="contact">
+  Dubai, UAE &nbsp;·&nbsp; +971 55 416 5853 &nbsp;·&nbsp;
+  <a href="mailto:aafify@mantaraydigitalsolutions.com">aafify@mantaraydigitalsolutions.com</a> &nbsp;·&nbsp;
+  <a href="https://aafify.com">aafify.com</a> &nbsp;·&nbsp;
+  <a href="https://linkedin.com/in/aafify">linkedin.com/in/aafify</a>
+</div>
+
+<hr>
+
+<div class="section">
+  <h2>Profile</h2>
+  <p class="profile-text">
+    Engineering leader with 9+ years building and shipping software products across healthcare, fintech, and SaaS. Currently leading a multi-product engineering organization at Mantaray Digital — shipping AI-powered clinical workflows, multi-agent orchestration systems, and consumer apps from zero to production. Founder mindset: I own architecture, write code, run standups, and ship. MSc Computer Science (Distinction), UCL — thesis built with Microsoft and Great Ormond Street Children's Hospital.
+  </p>
+</div>
+
+<div class="section">
+  <h2>Work Experience</h2>
+
+  <div style="margin-bottom: 20px;">
+    <div class="role">
+      <span class="role-title">CTO &amp; Co-founder</span>
+      <span class="role-date">Feb 2023 — Present</span>
+    </div>
+    <div class="role-company">Mantaray Digital Solutions — Dubai, UAE</div>
+    <ul>
+      <li>Built and shipped <strong>Mediflow</strong> — an AI-powered clinic management system with patient workflows, appointment booking, billing, and a super-admin portal. Designed the full architecture from scratch: React Native frontend, Node.js backend, FHIR-aligned data models for clinical records.</li>
+      <li>Architected and deployed a <strong>multi-agent AI system</strong> (8 specialized agents) using Claude Sonnet — covering QA, product architecture, content strategy, full-stack development, and financial analysis. Agents run autonomously on task boards (Linear), coordinate via Discord, and log to Notion.</li>
+      <li>Built <strong>Ledgerly</strong> (personal finance app, iOS + Android) — Expo SDK 54, Convex backend, real-time sync, in-app subscriptions, OTA updates via EAS. Shipped to App Store with full CI/CD pipeline.</li>
+      <li>Built <strong>Plato</strong> — restaurant POS + branch management SaaS with thermal printer integration, accounting dashboard, and multi-location support for MENA F&amp;B market.</li>
+      <li>Shipped <strong>Studiio</strong> — studio operations platform (booking, invoicing, client management) — 362 tasks completed across 10 phases.</li>
+      <li>Established engineering best practices: Linear for backlog, GitHub CI/CD, Sentry for error tracking, PostHog for analytics, Expo EAS for mobile builds.</li>
+      <li>Led team of 5-8 engineers (in-person + remote); ran daily standups, sprint planning, code reviews, and production deployments.</li>
+    </ul>
+  </div>
+
+  <div style="margin-bottom: 20px;">
+    <div class="role">
+      <span class="role-title">Engineering Manager</span>
+      <span class="role-date">Mar 2022 — Dec 2022</span>
+    </div>
+    <div class="role-company">Zyda — Cairo, Egypt</div>
+    <ul>
+      <li>Managed 5-person mobile engineering team building e-commerce enablement tools for MENA SMBs.</li>
+      <li>Reduced software development costs by 15% via agile methodology and sprint discipline.</li>
+      <li>Improved app adoption by 25% through a full product overhaul — new UX, faster performance, reduced crash rate.</li>
+      <li>Mentored junior engineers on code quality, system design, and ownership culture.</li>
+    </ul>
+  </div>
+
+  <div style="margin-bottom: 20px;">
+    <div class="role">
+      <span class="role-title">Lead Software Engineer</span>
+      <span class="role-date">Nov 2020 — Feb 2023</span>
+    </div>
+    <div class="role-company">Foresight Mobile — Stockport, UK (Remote)</div>
+    <ul>
+      <li>Led delivery of 10+ client projects across Flutter, React Native, Swift, Kotlin, React, Node.js, AWS, Firebase.</li>
+      <li>Managed cross-functional teams of 5–20 engineers; coordinated client delivery, technical scoping, and QA.</li>
+    </ul>
+  </div>
+
+  <div style="margin-bottom: 20px;">
+    <div class="role">
+      <span class="role-title">Software Engineer</span>
+      <span class="role-date">Sep 2018 — Aug 2019</span>
+    </div>
+    <div class="role-company">The Hut Group — Manchester, UK</div>
+    <ul>
+      <li>Built native mobile apps (iOS + Android) as part of a product team; contributed to a custom application framework used across 20+ apps with 3M+ combined downloads.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Selected Projects</h2>
+  <ul>
+    <li><strong>Mediflow</strong> — Clinic management system with patient records, appointments, billing, super-admin portal. FHIR-aligned data models. React Native + Node.js. <em>Directly relevant to healthcare AI integration.</em></li>
+    <li><strong>Multi-Agent AI System</strong> — 8 autonomous agents (Claude Sonnet) coordinating on real product work. Task ownership via Linear, Notion logging, Discord coordination. Built and operate this system daily.</li>
+    <li><strong>Ledgerly</strong> — Personal finance iOS/Android app. Expo SDK 54, Convex (real-time backend), RevenueCat (subscriptions), Sentry, PostHog. Live on App Store.</li>
+    <li><strong>Plato</strong> — Restaurant POS + SaaS for MENA F&amp;B. Multi-branch, thermal printing, accounting module.</li>
+    <li><strong>Vibecoding 101 Workshop</strong> — Designed and delivered a technical workshop on AI-assisted development at Network School, Malaysia (March 2026). Covered prompt engineering, spec-driven development, and AI agent workflows.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Education</h2>
+
+  <div style="margin-bottom: 12px;">
+    <div class="role">
+      <span class="role-title">MSc Computer Science — <em>Distinction, Top 10%</em></span>
+      <span class="role-date">Sep 2017 — Sep 2018</span>
+    </div>
+    <div class="role-company">University College London (UCL) — London, UK</div>
+    <ul>
+      <li>Thesis in collaboration with <strong>Microsoft</strong> and <strong>Great Ormond Street Children's Hospital</strong> — built a system to improve patient comfort and care coordination during long hospital stays. Early applied work at the intersection of software and clinical environments.</li>
+    </ul>
+  </div>
+
+  <div>
+    <div class="role">
+      <span class="role-title">BEng Electronics &amp; Communication Engineering — <em>First Class Honours, Top 10%</em></span>
+      <span class="role-date">Sep 2013 — Jun 2017</span>
+    </div>
+    <div class="role-company">University of Sheffield — Sheffield, UK</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Technical Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-item">React Native / Expo</div>
+    <div class="skill-item">Node.js / TypeScript</div>
+    <div class="skill-item">LLM Orchestration (Claude)</div>
+    <div class="skill-item">Multi-agent Systems</div>
+    <div class="skill-item">Real-time backends (Convex)</div>
+    <div class="skill-item">AWS / Firebase / Cloud</div>
+    <div class="skill-item">CI/CD (EAS, GitHub Actions)</div>
+    <div class="skill-item">Linear / Agile / Scrum</div>
+    <div class="skill-item">Sentry / PostHog / Observability</div>
+    <div class="skill-item">Flutter / Swift / Kotlin</div>
+    <div class="skill-item">Healthcare data models (FHIR)</div>
+    <div class="skill-item">Product Architecture</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Languages</h2>
+  <p>English — Fluent &nbsp;·&nbsp; Arabic — Native</p>
+</div>
+
+</body>
+</html>
